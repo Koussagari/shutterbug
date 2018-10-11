@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Shadows+Into+Light');
+
+
+.container {
+    max-width: 928px;
+}
+
+.main {
+    background-image: url(../images/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding-top: 25px;
+}
+
+.main h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.main h2 {
+    font-family: "Abel", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main a {
+    font-size: 1rem;
+    color: bisque;
+}
+
+.btn {
+    background-color: #000000e5;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.btn:hover {
+    background-color: #333333e5;
+    transition-duration: 100ms;
+    border: 1px solid #ffffff;
+}
+
+.section .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid;
+}
+
+.row h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 6rem;
+}
+
+.row p {
+    font-family: "Abel",
+        sans-serif;
+    font-size: 2rem;
+    border-left: 2px solid #333333e5;
+    padding-left: 4%;
+}
+
+.store {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer {
+    background-color: #333333e5;
+    color: #ffffff;
+    padding: 40px 20% 0 20%;
+}
+
+.footer>.row h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.col-md-4 {
+    text-align: center;
+}
